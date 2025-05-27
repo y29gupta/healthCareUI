@@ -1,0 +1,52 @@
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: 700;
+    /* border: 2px solid red; */
+}
+.arrows{
+    color: blue;
+}
+.calender-week{
+    display: flex;
+    margin-top: 10px;
+    gap: 45px;
+}
+.calender-map{
+    /* border: 2px solid green; */
+    background-color: #ecf3fe;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+.calender-week .day{
+    color: gray;
+    font-weight: 700;
+    font-size: 13px;
+    margin: 8px 0px;
+    
+
+}
+.dates{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 13px;
+    padding: 5px 0px;
+}
+.date{
+    font-weight: 700;
+}
+.dates p{
+    margin: 6px 0px;
+    color: rgb(56, 55, 55);
+    font-size: 11px;
+}
+.selectedTime{
+   font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(38, 163, 212);
+    padding: 2px 10px;
+   /* color: white; */
+}

@@ -1,0 +1,82 @@
+.card-container{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    gap: 10px;
+    margin: 5px 0px;
+    justify-content:flex-start;
+    font-size: 13px;
+    
+
+}
+.card-container p{
+    margin: 3px 0px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.dentistCard{
+    flex-basis: 40%;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: #3734a7;
+    color: white;
+    padding: 5px 18px;
+    
+}
+.physioCard{
+    flex: 60%;
+    /* border: 2px solid red; */
+    
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: #dde2f9;
+    color: black;
+    padding: 5px 18px;
+}
+.physioCard .card-header {
+    font-weight: 700;
+    
+}
+
+.health{
+    color:"red";
+    background-color: green;
+}
+
+.sideIcon{
+    width: 25px;
+    height: 25px;
+
+}
+.sideIcon img{
+    width: 100%;
+    height: 100%;
+}
+
+.health{
+    flex-basis:60%;
+    background-color:#dde2f9 ;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+.ophtha{
+     flex-basis:40%;
+    background-color:#dde2f9 ;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.cardio{
+      flex-basis:35%;
+    background-color:#dde2f9 ;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.neoro{
+      flex-basis:35%;
+    background-color:#dde2f9 ;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
